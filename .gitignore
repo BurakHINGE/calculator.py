@@ -1,0 +1,39 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+.venv/
+venv/
+ENV/
+env/
+
+# IDE/editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & local settings
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Test/coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build/dist
+build/
+dist/
+*.egg-info/
+
+# Env files (eğer varsa)
+.env
+.env.*
