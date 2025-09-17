@@ -2,12 +2,18 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
- ---
+---
+
+📌 Versiyon Bilgisi | Version Info  
+ ● Geçerli Sürüm: 1.1.0  
+ ● Current Version: 1.1.0
+
+---
  
 | Dil | Durum |
 |-----|--------|
 | Türkçe | ✅ |
-| English | Coming Soon |
+| English | ✅ |
 
 ---
 
@@ -23,7 +29,7 @@ Basit bir hesap makinesi uygulaması. Toplama, çıkarma, çarpma ve bölme gibi
 
 ### 📝 Kullanım
 ```bash
-python calculator.py
+python tr_calculator.py
 ```
 
 ---
@@ -40,17 +46,21 @@ A simple calculator application. You can perform basic mathematical operations s
 
 ### 📝 Usage
 ```bash
-python calculator.py
+python eng_calculator.py
 ```
 
 ---
 
 ## 📌 Sürüm Geçmişi / Version History
 
+### v1.1.0 - 2025-09-17
+- Koda İngilizce sürüm eklendi | English version added to the code
+
 ### v1.0.0 - 2025-09-02
-- Temel dört işlem (toplama, çıkarma, çarpma, bölme) eklendi. / Added basic operations (addition, subtraction, multiplication, division).
+- Temel dört işlem (toplama, çıkarma, çarpma, bölme) eklendi. | Added basic operations (addition, subtraction, multiplication, division).
+
 ---
 
-### 📄 Lisans
+### 📄 Lisans | License
 Bu proje [MIT License](LICENSE) ile lisanslanmıştır.
 This project is licensed under the [MIT License](LICENSE).
