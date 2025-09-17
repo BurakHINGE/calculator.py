@@ -2,6 +2,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
+ ---
+ 
 | Dil | Durum |
 |-----|--------|
 | Türkçe | ✅ |
@@ -41,6 +43,12 @@ A simple calculator application. You can perform basic mathematical operations s
 python calculator.py
 ```
 
+---
+
+## 📌 Sürüm Geçmişi / Version History
+
+### v1.0.0 - 2025-09-02
+- Temel dört işlem (toplama, çıkarma, çarpma, bölme) eklendi. / Added basic operations (addition, subtraction, multiplication, division).
 ---
 
 ### 📄 Lisans
