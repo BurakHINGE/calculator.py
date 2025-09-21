@@ -1,28 +1,30 @@
-def calc(x,y,operator):
-	
-	if operator not in "+-**/":
-		return "Sadece +, -, *, /, ** işaretlerini kullanabilirsiniz!"
 
-	if operator == "+":
-		return(str(x) + " " + operator + " " + str(y) + " = " + str(x + y))
+class Islem:
+    
+    def __init__(self, num1, num2, operator):
+        self.num1 = num1
+        self.num2 = num2
+        self.operator = operator
 
-	if operator == "-":
-		return(str(x) + " " + operator + " " + str(y) + " = " + str(x - y))
+    def hesapla(self):
+        if operator not in "+-*/:":
+            print("Lütfen doğru işlem seçiniz(+,-,*,/,:): ")
 
-	if operator == "*":
-		return(str(x) + " " + operator + " " + str(y) + " = " + str(x * y))
-
-	if operator == "/":
-		return(str(x) + " " + operator + " " + str(y) + " = " + str(x / y))
-
-	if operator == "**":
-		return(str(x) + " " + operator + " " + str(y) + " = " + str(x ** y))
-
+        if operator == "+":
+            return num1 + num2 
+        elif operator == "-":
+            return num1 - num2
+        elif operator == "*":
+            return num1 * num2
+        elif operator in ["/", ":"]:
+            return num1 / num2
+      
+        
 
 while True:
+    num1 = int(input("İlk sayınızı giriniz: "))
+    operator = input("İşleminizi seçiniz: ")
+    num2 = int(input("İkinci sayınızı giriniz: "))
 
-	x = int(input("İlk sayınızı seçiniz: "))
-	y = int(input("İkinci sayınızı seçiniz: "))
-	operator = input("Yapmak istediğiniz işlemi seçiniz: +, -, *, /, ** :")
-
-	print(calc(x,y,operator))
+    islem1 = Islem(num1, num2, operator)
+    print("Sonuç:", islem1.hesapla())
