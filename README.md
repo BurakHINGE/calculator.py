@@ -53,8 +53,11 @@ python eng_calculator.py
 
 ## 📌 Sürüm Geçmişi / Version History
 
+### v2.0.0 -2025-09-21
+-Kod sınıf yapısı kullanılarak daha kullanışlı hale getirildi. | Code was improved with class structure for better usability.
+
 ### v1.1.0 - 2025-09-17
-- Koda İngilizce sürüm eklendi | English version added to the code
+- Koda İngilizce sürüm eklendi. | English version added to the code.
 
 ### v1.0.0 - 2025-09-02
 - Temel dört işlem (toplama, çıkarma, çarpma, bölme) eklendi. | Added basic operations (addition, subtraction, multiplication, division).
