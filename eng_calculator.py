@@ -1,28 +1,28 @@
-def calc(x,y,operator):
+class Operation:
     
-    if operator not in "+-**/":
-        return "You can only use +, -, *, /, ** operators!"
+    def __init__(self, num1, num2, operator):
+        self.num1 = num1
+        self.num2 = num2
+        self.operator = operator
 
-    if operator == "+":
-        return(str(x) + " " + operator + " " + str(y) + " = " + str(x + y))
+    def calculate(self):
+        if operator not in "+-*/":
+            print("Please select a valid operation (+, -, *, /, :): ")
 
-    if operator == "-":
-        return(str(x) + " " + operator + " " + str(y) + " = " + str(x - y))
-
-    if operator == "*":
-        return(str(x) + " " + operator + " " + str(y) + " = " + str(x * y))
-
-    if operator == "/":
-        return(str(x) + " " + operator + " " + str(y) + " = " + str(x / y))
-
-    if operator == "**":
-        return(str(x) + " " + operator + " " + str(y) + " = " + str(x ** y))
-
+        if operator == "+":
+            return num1 + num2 
+        elif operator == "-":
+            return num1 - num2
+        elif operator == "*":
+            return num1 * num2
+        elif operator in ["/", ":"]:
+            return num1 / num2 
+        
 
 while True:
+    num1 = int(input("Enter your first number: "))
+    operator = input("Choose your operation: ")
+    num2 = int(input("Enter your second number: "))
 
-    x = int(input("Enter your first number: "))
-    y = int(input("Enter your second number: "))
-    operator = input("Choose the operation you want to perform: +, -, *, /, ** :")
-
-    print(calc(x,y,operator))
+    operation1 = Operation(num1, num2, operator)
+    print("Result:", operation1.calculate())
