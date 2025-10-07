@@ -1,10 +1,10 @@
-# Calculator
+# Hesap Makinesi / Calculator
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
 
-📌 Versiyon Bilgisi | Version Info  
+📌 Sürüm Bilgisi | Version Info  
  ● Geçerli Sürüm: 1.1.0  
  ● Current Version: 1.1.0
 
