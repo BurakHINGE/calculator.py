@@ -7,17 +7,17 @@ class Islem:
         self.operator = operator
 
     def hesapla(self):
-        if operator not in "+-*/:":
-            print("Lütfen doğru işlem seçiniz(+,-,*,/,:): ")
+        if self.operator not in "+-*/:":
+            return "Lütfen doğru işlem seçiniz(+,-,*,/,:): "
 
-        if operator == "+":
-            return num1 + num2 
-        elif operator == "-":
-            return num1 - num2
-        elif operator == "*":
-            return num1 * num2
-        elif operator in ["/", ":"]:
-            return num1 / num2
+        if self.operator == "+":
+            return self.num1 + self.num2 
+        elif self.operator == "-":
+            return self.num1 - self.num2
+        elif self.operator == "*":
+            return self.num1 * self.num2
+        elif self.operator in ["/", ":"]:
+            return self.num1 / self.num2
       
         
 
