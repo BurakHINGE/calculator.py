@@ -4,7 +4,7 @@
 
 ---
 
-📌 Sürüm Bilgisi | Version Info  
+## 📌 Sürüm Bilgisi | Version Info  
  ● Geçerli Sürüm: 2.0.1
  
  ● Current Version: 2.0.1
