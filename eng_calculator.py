@@ -6,22 +6,22 @@ class Operation:
         self.operator = operator
 
     def calculate(self):
-        if operator not in "+-*/":
-            print("Please select a valid operation (+, -, *, /, :): ")
+        if self.operator not in "+-*/:":
+            return "Please select a valid operator (+, -, *, /, :): "
 
-        if operator == "+":
-            return num1 + num2 
-        elif operator == "-":
-            return num1 - num2
-        elif operator == "*":
-            return num1 * num2
-        elif operator in ["/", ":"]:
-            return num1 / num2 
-        
+        if self.operator == "+":
+            return self.num1 + self.num2 
+        elif self.operator == "-":
+            return self.num1 - self.num2
+        elif self.operator == "*":
+            return self.num1 * self.num2
+        elif self.operator in ["/", ":"]:
+            return self.num1 / self.num2
+      
 
 while True:
     num1 = int(input("Enter your first number: "))
-    operator = input("Choose your operation: ")
+    operator = input("Choose your operator: ")
     num2 = int(input("Enter your second number: "))
 
     operation1 = Operation(num1, num2, operator)
