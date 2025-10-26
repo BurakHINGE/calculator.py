@@ -5,8 +5,8 @@
 ---
 
 📌 Sürüm Bilgisi | Version Info  
- ● Geçerli Sürüm: 2.0.0
- ● Current Version: 2.0.0
+ ● Geçerli Sürüm: 2.0.1
+ ● Current Version: 2.0.1
 
 ---
  
@@ -53,8 +53,11 @@ python eng_calculator.py
 
 ## 📌 Sürüm Geçmişi / Version History
 
-### v2.0.0 -2025-09-21
--Kod, sınıf yapısı kullanılarak daha kullanışlı hale getirildi. | Code was improved with class structure for better usability.
+### v2.0.1 - 2025-10-26
+- Kodda hata düzeltmesi yapıldı. | Bug has been fixed in code.
+
+### v2.0.0 - 2025-09-21
+- Kod, sınıf yapısı kullanılarak daha kullanışlı hale getirildi. | Code was improved with class structure for better usability.
 
 ### v1.1.0 - 2025-09-17
 - Koda İngilizce sürüm eklendi. | English version added to the code.
