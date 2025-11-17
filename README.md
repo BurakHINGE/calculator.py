@@ -1,37 +1,20 @@
-# Hesap Makinesi / Calculator
+# Calculator / Hesap Makinesi
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
 
 ## 📌 Sürüm Bilgisi | Version Info  
- ● Geçerli Sürüm: 2.0.1
- 
  ● Current Version: 2.0.1
+
+ ● Geçerli Sürüm: 2.0.1
 
 ---
  
 | Dil | Durum |
 |-----|--------|
-| Türkçe | ✅ |
 | English | ✅ |
-
----
-
-## 🇹🇷 Türkçe
-
-Basit bir hesap makinesi uygulaması. Toplama, çıkarma, çarpma ve bölme gibi temel matematiksel işlemleri yapabilirsiniz.
-
-### 🚀 Özellikler
-- Toplama  
-- Çıkarma  
-- Çarpma  
-- Bölme  
-
-### 📝 Kullanım
-```bash
-python tr_calculator.py
-```
+| Türkçe | ✅ |
 
 ---
 
@@ -52,22 +35,39 @@ python eng_calculator.py
 
 ---
 
-## 📌 Sürüm Geçmişi / Version History
+## 🇹🇷 Türkçe
 
-### v2.0.1 - 2025-10-26
-- Kodda hata düzeltmesi yapıldı. | Bug has been fixed in code.
+Basit bir hesap makinesi uygulaması. Toplama, çıkarma, çarpma ve bölme gibi temel matematiksel işlemleri yapabilirsiniz.
 
-### v2.0.0 - 2025-09-21
-- Kod, sınıf yapısı kullanılarak daha kullanışlı hale getirildi. | Code was improved with class structure for better usability.
+### 🚀 Özellikler
+- Toplama  
+- Çıkarma  
+- Çarpma  
+- Bölme  
 
-### v1.1.0 - 2025-09-17
-- Koda İngilizce sürüm eklendi. | English version added to the code.
-
-### v1.0.0 - 2025-09-02
-- Temel dört işlem (toplama, çıkarma, çarpma, bölme) eklendi. | Added basic operations (addition, subtraction, multiplication, division).
+### 📝 Kullanım
+```bash
+python tr_calculator.py
+```
 
 ---
 
-### 📄 Lisans | License
-Bu proje [MIT License](LICENSE) ile lisanslanmıştır.
+## 📌 Version History / Sürüm Geçmişi
+
+### v2.0.1 - 2025-10-26
+- Bug has been fixed in code. | Kodda hata düzeltmesi yapıldı. 
+
+### v2.0.0 - 2025-09-21
+- Code was improved with class structure for better usability. | Kod, sınıf yapısı kullanılarak daha kullanışlı hale getirildi.
+
+### v1.1.0 - 2025-09-17
+-  English version added to the code. | Koda İngilizce sürüm eklendi. 
+
+### v1.0.0 - 2025-09-02
+- Added basic operations (addition, subtraction, multiplication, division). | Temel dört işlem (toplama, çıkarma, çarpma, bölme) eklendi. 
+
+---
+
+### 📄 License | Lisans
 This project is licensed under the [MIT License](LICENSE).
+Bu proje [MIT License](LICENSE) ile lisanslanmıştır.
