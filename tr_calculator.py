@@ -1,4 +1,3 @@
-
 class Islem:
     
     def __init__(self, num1, num2, operator):
@@ -7,19 +6,27 @@ class Islem:
         self.operator = operator
 
     def hesapla(self):
-        if self.operator not in "+-*/:":
-            return "Lütfen doğru işlem seçiniz(+,-,*,/,:): "
+       
+        gecerli_ops = ["+", "-", "*", "/", ":", "**"]
+
+        if self.operator not in gecerli_ops:
+            return "Lütfen doğru işlem seçiniz (+, -, *, /, :, **):"
 
         if self.operator == "+":
-            return self.num1 + self.num2 
+            return self.num1 + self.num2
+        
         elif self.operator == "-":
             return self.num1 - self.num2
+        
         elif self.operator == "*":
             return self.num1 * self.num2
+        
         elif self.operator in ["/", ":"]:
             return self.num1 / self.num2
-      
-        
+
+        elif self.operator == "**":
+            return self.num1 ** self.num2
+
 
 while True:
     num1 = int(input("İlk sayınızı giriniz: "))
