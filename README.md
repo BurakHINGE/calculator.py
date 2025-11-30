@@ -5,9 +5,9 @@
 ---
 
 ## 📌 Sürüm Bilgisi | Version Info  
- ● Current Version: 2.0.1
+ ● Current Version: 2.1.1
 
- ● Geçerli Sürüm: 2.0.1
+ ● Geçerli Sürüm: 2.1.1
 
 ---
  
@@ -26,7 +26,8 @@ A simple calculator application. You can perform basic mathematical operations s
 - Addition  
 - Subtraction  
 - Multiplication  
-- Division  
+- Division
+- Exponentiation
 
 ### 📝 Usage
 ```bash
@@ -43,7 +44,8 @@ Basit bir hesap makinesi uygulaması. Toplama, çıkarma, çarpma ve bölme gibi
 - Toplama  
 - Çıkarma  
 - Çarpma  
-- Bölme  
+- Bölme
+- Üssünü alma
 
 ### 📝 Kullanım
 ```bash
@@ -53,6 +55,9 @@ python tr_calculator.py
 ---
 
 ## 📌 Version History / Sürüm Geçmişi
+
+### v2.1.1 - 2025-11-30
+- Added exponentiation operation to the calculator. | Hesap makinesine üs alma işlemi eklendi.
 
 ### v2.0.1 - 2025-10-26
 - Bug has been fixed in code. | Kodda hata düzeltmesi yapıldı. 
